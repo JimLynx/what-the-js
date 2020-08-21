@@ -59,10 +59,11 @@ button a {
     color: #fafafa;
 }
 
+
 img {
     height: 250px;
     width: auto;
-    margin: 10px auto;
+    margin: 0;
 }
 
 .iframe {
