@@ -1,199 +1,463 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <meta name="What the JS???" content="Javascript Learning References" />
-    <link rel="stylesheet"
-        href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.0.0-alpha1/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
-    <link rel="stylesheet" href="assets/css/style.css">
-    <title>WHAT THE JS???</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Vanilla Bootstrap v4.2.1 Theme</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="apple-touch-icon" href="apple-touch-icon.png">
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/fontAwesome.css">
+    <link rel="stylesheet" href="css/hero-slider.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/owl-carousel.css">
+
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800" rel="stylesheet">
+
+    <script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
 </head>
-
-
-
+<!--
+Vanilla Template
+https://templatemo.com/tm-526-vanilla
+-->
 
 <body>
 
-    <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg navbar-light">
-        <a class="navbar-brand" href="#">WHAT THE JS???</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav">
-                <li class="nav-item active">
-                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-                </li>
-
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        Learning Resources
-                    </a>
-                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item" href="#">Courses</a>
-                        <div class="dropdown-divider"></div>
-                        <a class="dropdown-item" href="#">Video Tutorials</a>
-                        <div class="dropdown-divider"></div>
-                        <a class="dropdown-item" href="#">Challanges</a>
-                        <div class="dropdown-divider"></div>
-                        <a class="dropdown-item" href="#">Games</a>
-                    </div>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">API's</a>
-                </li>
-            </ul>
-        </div>
-    </nav>
-
-    <!-- Header -->
-    <header>
-        <h1>Know this feeling?</h1>
-
-        <div id="intro" class="container">
-            <div class="row">
-                <div class="col">
-                    <img src="https://images.unsplash.com/photo-1518644730709-0835105d9daa?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80"
-                        alt="Confused man">
-                </div>
-                <div class="col">
-                    <img src="https://images.unsplash.com/photo-1456406644174-8ddd4cd52a06?ixlib=rb-1.2.1&auto=format&fit=crop&w=1348&q=80"
-                        alt="Confused boy">
-                </div>
-                <div class="col">
-                    <img src="https://images.unsplash.com/photo-1516534775068-ba3e7458af70?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80"
-                        alt="Frustrated woman">
-                </div>
-
-            </div>
-        </div>
-
-        <h3>Don't worry there is hope!</h3>
-        <p>You're not alone! Many people struggle with Javascript and it's certainly not an easy language to learn.
-            Seasoned professional programmers STILL use Google and external resources to solve issues and jog the memory
-            of what to use where... but with more practice, the more fluid it becomes.
-        </p>
-    </header>
-
-    <!-- online courses -->
-
-    <div class="container">
-        <h3>FREE ONLINE COURSES TO SUPPLEMENT YOUR LEARNING</h3>
-        <div class="row">
-
-            <div class="col">
-                <div class="card">
-                    <img src="https://image.winudf.com/v2/image/Y29tLmFuZHJvaWRjaGFubmVsYXBwLmphdmFzY3JpcHRfc2NyZWVuXzVfMTUwMzkzOTkwNF8wODk/screen-5.jpg?fakeurl=1&type=.jpg"
-                        class="card-img-top" alt="W3Schools logo">
-                    <div class="card-body">
-                        <a href="https://www.w3schools.com/js/default.asp" target="_blank"
-                            class="btn btn-primary">W3SCHOOLS</a>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col">
-                <div class="card">
-                    <img src="https://miro.medium.com/max/1200/1*ewtBIx_aS3NmPpndE-b3-g.png" class="card-img-top"
-                        alt="Freecodecamp logo">
-                    <div class="card-body">
-                        <a href="https://www.freecodecamp.org/learn/" target="_blank"
-                            class="btn btn-primary">FREECODECAMP</a>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col">
-                <div class="card">
-                    <img src="data:image/jpeg;base64,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"
-                        class="card-img-top" alt="Codecademy Logo">
-                    <div class="card-body">
-                        <a href="https://www.codecademy.com/learn/introduction-to-javascript" target="_blank"
-                            class="btn btn-primary">CODECADEMY</a>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col">
-                <div class="card">
-                    <img src="https://lh3.googleusercontent.com/WPaGf2DLOuiRhKtHzMpJUppuOY3672l2ycmO5xkSoLzq_ShDb4aXbhbX8MJysRvLgB4"
-                        class="card-img-top" alt="SoloLearn logo">
-                    <div class="card-body">
-                        <a href="https://www.sololearn.com/Course/JavaScript/" target="_blank"
-                            class="btn btn-primary">SOLOLEARN</a>
-                    </div>
-                </div>
-            </div>
-
-
-        </div>
-
+    <div class="fixed-side-navbar">
+        <ul class="nav flex-column">
+            <li class="nav-item"><a class="nav-link" href="#home"><span>Intro</span></a></li>
+            <li class="nav-item"><a class="nav-link" href="#about"><span>About</span></a></li>
+            <li class="nav-item"><a class="nav-link" href="#courses"><span>Free Courses</span></a></li>
+            <li class="nav-item"><a class="nav-link" href="#video"><span>Video Tutorials</span></a></li>
+            <li class="nav-item"><a class="nav-link" href="#challenges"><span>Challenges</span></a></li>
+            <li class="nav-item"><a class="nav-link" href="#games"><span>Games</span></a></li>
+            <!-- <li class="nav-item"><a class="nav-link" href="#contact-us"><span>Contact Us</span></a></li> -->
+        </ul>
     </div>
 
-    <!-- video tutorials -->
-
-    <div>
-        <div>
-            <h3>RECOMMENDED YOUTUBE VIDEO TUTORIALS</h3>
-            <p>Note: it's worth subscribing to these channels and checking out their other tutorials</p>
-            <div class="container">
-                <div class="row">
-                    <div class="col">
-                        <h2>FreeCodeCamp</h2>
-                        <div class="embed-responsive embed-responsive-16by9">
-                            <iframe class="embed-responsive-item"
-                                src="https://www.youtube.com/embed/PkZNo7MFNFg"></iframe>
-                        </div>
-
-
-                    </div>
-                    <div class="col">
-                        <h2>DevEd</h2>
-                        <div class="embed-responsive embed-responsive-16by9">
-                            <iframe class="embed-responsive-item"
-                                src="https://www.youtube.com/embed/Ttf3CEsEwMQ"></iframe>
-                        </div>
+    <div class="parallax-content baner-content" id="home">
+        <div class="container">
+            <div class="first-content">
+                <h1>WHAT THE JS???</h1><br>
+                <span>Welcome to the <em>Javascript</em> learning platform!</span>
+                <div class="buttons">
+                    <div class="primary-button">
+                        <a href="#about">Don't fret, click me!</a>
                     </div>
                 </div>
-                <div class="row">
-                    <div class="col">
-                        <h2>Traversy Media</h2>
-                        <div class="embed-responsive embed-responsive-16by9">
-                            <iframe class="embed-responsive-item"
-                                src="https://www.youtube.com/embed/hdI2bqOjy3c"></iframe>
-                        </div>
-
-
-                    </div>
-                    <div class="col">
-                        <h2>Programming with Mosh</h2>
-                        <div class="embed-responsive embed-responsive-16by9">
-                            <iframe class="embed-responsive-item"
-                                src="https://www.youtube.com/embed/W6NZfCO5SIk"></iframe>
-                        </div>
-                    </div>
-                </div>
-
-
             </div>
         </div>
+    </div>
+    </div>
 
-        <!-- Footer -->
-        <footer>
-            <p>Powered by JimLynx</p>
-        </footer>
 
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.0.0-alpha1/js/bootstrap.min.js">
-        </script>
+    <div class="about-content" id="about">
+        <div class="container">
+            <h2>ABOUT THIS SITE</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="left-text">
+                        <h4>You are NOT alone!</h4>
+                        <div class="line-dec"></div>
+                        <p>Pretty much everyone struggles with Javascript and it's certainly not an easy language to
+                            learn.
+                            Seasoned professional programmers STILL use Google and external resources to solve issues
+                            and jog the memory
+                            of what to use where... but with more practice, the more fluid it becomes.</p>
+                        <div class="line-dec"></div>
+                        <h4>Here are some tips to help your learning curve:</h4>
+                        <p>
+                            <ul>
+                                <li>- Learn bite-sized chunks at a time</li>
+                                <li>- Don't try and remember everything, you can't.</li>
+                                <li>- Supplement learning with small courses</li>
+                                <li>- Take part in challenges to practice your coding</li>
+                            </ul>
+                        </p>
+                    </div>
+                </div>
+
+                <!--ABOUT SECTION-->
+
+                <div class="col-md-8">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="about-item">
+                                <a href="#courses">
+                                    <h4>Online Courses</h4>
+                                </a>
+                                <div class="line-dec"></div>
+                                <p>There are some amazing free courses available online!</p>
+                                <p>Remember that these courses are aimed at supplementing your learning, so don't expect
+                                    to know all of Javascript immediately!</p>
+                                <br>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="about-item">
+                                <a href="#video">
+                                    <h4>Video Tutorials</h4>
+                                </a>
+                                <div class="line-dec"></div>
+                                <p>It's important not to get carried away with the 'Tutorial Rabbit-Hole' as this can
+                                    lead to immense frustration.</p>
+                                <p> Check out the recommended video tutorials below, which have been specifically
+                                    selected for their quality of teaching methods and learning
+                                    outcomes</p>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="about-item">
+                                <a href="#challenges">
+                                    <h4>Challenges</h4>
+                                </a>
+                                <div class="line-dec"></div>
+                                <p>Javascript Challenges are tutorial-based, allowing you to follow instructions to
+                                    build an array of interesting projects.</p>
+                                <p>This is an excellent way to learn by practice. The more you write, the more
+                                    accustomed you get to udnerstanding the code and remembering the sytax.</p>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="about-item">
+                                <a href="#games">
+                                    <h4>Games</h4>
+                                </a>
+                                <div class="line-dec"></div>
+                                <p>building a few games will really get you into writing Javascript
+                                    code and working with DOM traversal. </p>
+                                <p>Like the challenges, this is a great way to practice writing code</p>
+                                <br>
+                                <p>It's fun too!</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--COURSES SECTION-->
+
+    <div class="parallax-content course-content" id="courses">
+
+        <div class="container">
+            <h2>FREE ONLINE COURSES</h2>
+            <div class="row">
+                <div class="col-md-12">
+                    <div id="owl-testimonials" class="owl-carousel owl-theme">
+                        <div class="item">
+                            <div class="testimonials-item">
+                                <a><img src="img/freec.jpg" alt="Freecodecamp logo"></a>
+                                <div class="text-content">
+                                    <a href="https://www.freecodecamp.org/learn/" target="_blank">
+                                        <h4>FreeCodeCamp</h4>
+                                    </a>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="testimonials-item">
+                                <a><img src="img/codec.jpg" alt="Codecademy logo"></a>
+                                <div class="text-content">
+                                    <a href="https://www.codecademy.com/learn/introduction-to-javascript"
+                                        target="_blank">
+                                        <h4>CodeCademy</h4>
+                                    </a>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="testimonials-item">
+                                <img src="img/solo.jpg" alt="Sololearn logo"></a>
+                                <div class="text-content">
+                                    <a href="https://www.sololearn.com/Course/JavaScript/" target="_blank">
+                                        <h4>SoloLearn</h4>
+                                    </a>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="testimonials-item">
+                                <a><img src="img/w3.jpg" alt="W3Schools logo"></a>
+                                <div class="text-content">
+                                    <a href="https://www.w3schools.com/js/default.asp" target="_blank">
+                                        <h4>W3Schools</h4>
+                                    </a>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="testimonials-item">
+                                <a><img src="img/edabit.jpg" alt="Edabit logo"></a>
+                                <div class="text-content">
+                                    <a href="https://edabit.com/tutorial/javascript" target="_blank">
+                                        <h4>Edabit</h4>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--VIDEO TUTORIAL SECTION-->
+
+    <div class="video-content" id="video">
+        <div class="container">
+            <h2>VIDEO TUTORIALS</h2>
+            <div class="row">
+                <div class="col-md-8 mx-auto">
+                    <div class="wrapper">
+                        <section id="first-tab-group" class="tabgroup">
+                            <div id="tab1" class="vid-container">
+                                <iframe class="responsive-iframe"
+                                    src="https://www.youtube.com/embed/PkZNo7MFNFg"></iframe>
+                            </div>
+
+                            <div id="tab2" class="vid-container">
+                                <iframe class="responsive-iframe"
+                                    src="https://www.youtube.com/embed/hdI2bqOjy3c"></iframe>
+                            </div>
+
+                            <div id="tab3" class="vid-container">
+                                <iframe class="responsive-iframe"
+                                    src="https://www.youtube.com/embed/W6NZfCO5SIk"></iframe>
+                            </div>
+
+                            <div id="tab4" class="vid-container">
+                                <iframe class="responsive-iframe"
+                                    src="https://www.youtube.com/embed/Qqx_wzMmFeA"></iframe>
+                            </div>
+
+                            <div id="tab5" class="vid-container">
+                                <iframe class="responsive-iframe"
+                                    src="https://www.youtube.com/embed/HnXmI2UVZlU"></iframe>
+                            </div>
+
+                        </section>
+
+                        <ul class="tabs clearfix" data-tabgroup="first-tab-group">
+                            <li><a href="#tab1" class="active">FreeCodeCamp</a></li>
+                            <li><a href="#tab2">Traversy Media</a></li>
+                            <li><a href="#tab3">Programming with Mosh</a></li>
+                            <li><a href="#tab4">Clever Programmer</a></li>
+                            <li><a href="#tab5">Chris Hawkes</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--CHALLENGES SECTION-->
+
+    <div class="parallax-content challenge-content" id="challenges">
+        <div class="container">
+            <h2>JAVASCRIPT CHALLENGES</h2>
+            <div class="row">
+                <div class="col-md-12">
+                    <div id="owl-testimonials" class="owl-carousel owl-theme">
+                        <div class="item">
+                            <div class="testimonials-item">
+                                <a><img src="https://miro.medium.com/max/1200/1*ewtBIx_aS3NmPpndE-b3-g.png" alt=""></a>
+                                <div class="text-content">
+                                    <a href="https://www.freecodecamp.org/learn/" target="_blank">
+                                        <h4>FreeCodeCamp</h4>
+                                    </a>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="testimonials-item">
+                                <a><img src="img/2nd-item.jpg" alt=""></a>
+                                <div class="text-content">
+                                    <a href="https://www.codecademy.com/learn/introduction-to-javascript"
+                                        target="_blank">
+                                        <h4>CodeCademy</h4>
+                                    </a>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="testimonials-item">
+                                <a href="img/3rd-big-item.jpg" data-lightbox="image-1"><img src="img/3rd-item.jpg"
+                                        alt=""></a>
+                                <div class="text-content">
+                                    <a href="https://www.sololearn.com/Course/JavaScript/" target="_blank">
+                                        <h4>SoloLearn</h4>
+                                    </a>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="testimonials-item">
+                                <a><img src="img/4th-item.jpg" alt=""></a>
+                                <div class="text-content">
+                                    <a href="https://www.w3schools.com/js/default.asp" target="_blank">
+                                        <h4>W3Schools</h4>
+                                    </a>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="testimonials-item">
+                                <a><img src="img/5th-item.jpg" alt=""></a>
+                                <div class="text-content">
+                                    <a href="https://www.w3schools.com/js/default.asp" target="_blank">
+                                        <h4>Edabit</h4>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--GAMES SECTION-->
+
+    <div class="tabs-content" id="games">
+        <div class="container">
+            <h2>GAMES WITH JAVASCRIPT</h2>
+            <div class="row">
+                <div class="col-md-8 mx-auto">
+                    <div class="wrapper">
+                        <section id="third-tab-group" class="tabgroup">
+                            <div id="game1" class="vid-container">
+                                <iframe class="responsive-iframe" src="https://www.youtube.com/embed/bG2BmmYr9NQ"
+                                    frameborder="0"
+                                    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                                    allowfullscreen>
+                                </iframe>
+                            </div>
+
+                            <div id="game2" class="vid-container">
+                                <iframe class="responsive-iframe" src="https://www.youtube.com/embed/ZniVgo8U7ek"
+                                    frameborder="0"
+                                    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                                    allowfullscreen>
+                                </iframe>
+                            </div>
+
+                            <div id="game3" class="vid-container">
+                                <iframe class="responsive-iframe" src="https://www.youtube.com/embed/QTcIXok9wNY"
+                                    frameborder="0"
+                                    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                                    allowfullscreen>
+                                </iframe>
+                            </div>
+
+                            <div id="game4" class="vid-container">
+                                <iframe class="responsive-iframe" src="https://www.youtube.com/embed/R1S_NhKkvGA"
+                                    frameborder="0"
+                                    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                                    allowfullscreen>
+                                </iframe>
+                            </div>
+                            <div id="game5" class="vid-container">
+                                <iframe class="responsive-iframe" src="https://www.youtube.com/embed/Y-GkMjUZsmM"
+                                    frameborder="0"
+                                    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                                    allowfullscreen>
+                                </iframe>
+                            </div>
+                            <div id="game6" class="vid-container">
+                                <iframe class="responsive-iframe" src="https://www.youtube.com/embed/lhNdUVh3qCc"
+                                    frameborder="0"
+                                    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                                    allowfullscreen>
+                                </iframe>
+                            </div>
+
+                        </section>
+
+                        <ul class="tabs clearfix" data-tabgroup="third-tab-group">
+                            <li><a href="#game1" class="active">Simple JS Game</a></li>
+                            <li><a href="#game2">Memory Game</a></li>
+                            <li><a href="#game3">Code Snake</a></li>
+                            <li><a href="#game4">Adventure Game</a></li>
+                            <li><a href="#game5">Tic-Tac-Toe</a></li>
+                            <li><a href="#game6">Build 7 Games!</a></li>
+
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--FOOTER-->
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="primary-button">
+                        <a href="#home">Back To Top</a>
+                    </div>
+                    <!-- <ul>
+                        <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                        <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                        <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                        <li><a href="#"><i class="fa fa-google"></i></a></li>
+                        <li><a href="#"><i class="fa fa-dribbble"></i></a></li>
+                    </ul> -->
+                    <p>Copyright &copy; 2020 JimLynx</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script>
+        window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')
+    </script>
+    <script src="js/vendor/bootstrap.min.js"></script>
+    <script src="js/plugins.js"></script>
+    <script src="js/main.js"></script>
+
+    <script>
+        $(document).ready(function () {
+            // Add smooth scrolling to all links
+            $(".fixed-side-navbar a, .primary-button a").on('click', function (event) {
+
+                // Make sure this.hash has a value before overriding default behavior
+                if (this.hash !== "") {
+                    // Prevent default anchor click behavior
+                    event.preventDefault();
+
+                    // Store hash
+                    var hash = this.hash;
+
+                    // Using jQuery's animate() method to add smooth page scroll
+                    // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+                    $('html, body').animate({
+                        scrollTop: $(hash).offset().top
+                    }, 800, function () {
+
+                        // Add hash (#) to URL when done scrolling (default click behavior)
+                        window.location.hash = hash;
+                    });
+                } // End if
+            });
+        });
+    </script>
 
 </body>
 
