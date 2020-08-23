@@ -324,7 +324,7 @@ h4,
 
 .course-content {
   padding-top: 15vh;
-  background-image: url(https://res.cloudinary.com/practicaldev/image/fetch/s--alG1QPm4--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://thepracticaldev.s3.amazonaws.com/i/ma2ro69gwq043al9042t.png);
+  background-image: url(../img/code2.jpg);
 }
 
 .course-content .item img,
@@ -460,6 +460,15 @@ section {
 #games {
   padding-top: 10vh;
   background-image: url(../img/5th-section.jpg);
+  background-position: center;
+  height: 100vh;
+}
+
+/* ----- AJAX ----- */
+
+#ajax {
+  padding-top: 10vh;
+  background-image: url(../img/code2.jpg);
   background-position: center;
   height: 100vh;
 }
